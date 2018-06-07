@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+
+li {float: right;
+    
+}
+
+li a {display: inline;
+    padding: 14px 16px;
+    background-color:white;
+    text-decoration: none;
+}
+
+li a:hover {background-color: #111
+}
+    
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0,140, 186, 0.5);
+}
+
+#bannerimageNFL {
+    width: 100%;
+    background-image: url("https://yt3.ggpht.com/a-/ACSszfGSWlDtEFZSJgy7Y8mHOtmcceK7taJfULi95w=s900-mo-c-c0xffffffff-rj-k-no");
+    height: 900px;
+    background-position: center;
+}  
+
+#teamsban {
+    display: flex;
+    padding: 14px 16px;
+    background-color:rgb(34, 11, 99);
+    width: 100%;
+    height: 5px;
+    
+  }
+
+  h1{text-align: center;
+    color: whitesmoke;
+}
+    p{ font-family: fantasy;
+    color: white;
+    text-align: center;
+    };
+    a{ 
+    width: 500px;
+
+}
+img {border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 50px;
+    width: 150px;
+    
+}
+
+
+.team {
+background-color: black;
+display: inline-block;
+}
+#teams{
+    display:inline-block;
+}
+.team1 {animation: 0ms;}
