@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#333;
+    background-color:black;
 }
 
 li {float: right;
@@ -13,27 +13,28 @@ li {float: right;
 li a {display: inline;
     padding: 14px 16px;
     background-color:white;
+    
     text-decoration: none;
 }
 
-li a:hover {background-color: #111
-}
+li a:hover {background-color: grey;}
     
 img:hover {
-    box-shadow: 0 0 2px 1px rgba(0,140, 186, 0.5);
+    box-shadow: 0 0 2px 1px gold;
 }
 
 #bannerimageNFL {
     width: 100%;
-    background-image: url("https://yt3.ggpht.com/a-/ACSszfGSWlDtEFZSJgy7Y8mHOtmcceK7taJfULi95w=s900-mo-c-c0xffffffff-rj-k-no");
+    background-image: url(https://www.50-best.com/images/nfl_team_wallpapers/nfl_on_black_wallpaper.jpg);;
     height: 900px;
     background-position: center;
+    zoom: 1.1;
 }  
 
 #teamsban {
-    display: flex;
+    
     padding: 14px 16px;
-    background-color:rgb(34, 11, 99);
+    background-color:rgb(rgb(11, 66, 117));
     width: 100%;
     height: 5px;
     
@@ -41,6 +42,7 @@ img:hover {
 
   h1{text-align: center;
     color: whitesmoke;
+    size: 200px;
 }
     p{ font-family: fantasy;
     color: white;
@@ -67,4 +69,59 @@ display: inline-block;
 #teams{
     display:inline-block;
 }
-.team1 {animation: 0ms;}
+.sale {
+    display: inline-block;
+    background-color: red;
+    animation-name: sale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sale{
+    from {background-color: black;}
+    to {background-color: red;}
+    }
+.team :hover{background-color: grey;}
+.sale :hover{background-color:yellow;}
+
+
+.not4Sale{background-color: black;
+    display: inline-block;
+    position: relative;
+}
+    
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;}
+   
+.text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+.not4Sale:hover .overlay{opacity: 1;}
+.icon{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;}
+    .fa-times-circle:hover{color: #eee;}
